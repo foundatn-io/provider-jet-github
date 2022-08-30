@@ -6,7 +6,7 @@ include ../../../build/makelib/common.mk
 
 # ====================================================================================
 #  Options
-DOCKER_REGISTRY ?= crossplane
+DOCKER_REGISTRY ?= pgmitche
 IMAGE = $(BUILD_REGISTRY)/provider-jet-github-$(ARCH)
 OSBASEIMAGE = scratch
 include ../../../build/makelib/image.mk
